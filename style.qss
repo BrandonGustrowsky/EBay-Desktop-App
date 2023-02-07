@@ -1,0 +1,57 @@
+QLineEdit{
+    color: black;
+    border-radius:10px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(130, 130, 130);
+}
+
+QLineEdit:focus {
+    border: 2px solid rgb(255, 100, 100);
+}
+
+QPushButton {
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(35, 35, 35);
+    color: rgb(255,255,255);
+    
+}
+
+QPushButton:hover {
+    background: rgb(210, 225, 215);
+    color: rgb(35, 35, 35);
+    border: 2px solid rgb(0,0,0);
+}
+
+
+Product_Template { 
+    border: 2px solid rgb(0,0,0);
+    border-radius: 5px;
+    background: rgb(210, 210, 210);
+}
+
+Product_Template:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background:rgb(210, 225, 215);
+    color: rgb(255, 255, 255);
+}
+
+QStackedWidget { 
+    background-color: rgb(10, 108, 255); /*qradialgradient(cx:1, cy:1, radius:1, fx:0.5, fy:0.5, stop:0 rgb(0, 0, 255), stop:1 rgb(45,45,255));} */
+}
+
+Search_Template {
+    border: 2px solid rgb(0,0,0);
+    border-radius: 5px;
+    background: rgb(210, 210, 210);
+}
+
+Search_Template:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background:rgb(210, 225, 215);
+    color: rgb(255, 255, 255);
+}
+
+QScrollArea:hover {
+    background: gb(210, 225, 215);
+}
